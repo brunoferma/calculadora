@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edt_result"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@color/primaryColor"
@@ -32,22 +32,22 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/op_1"
+                android:id="@+id/btn1"
                 style="@style/btnCalc"
                 android:text="1" />
 
             <Button
-                android:id="@+id/n_7"
+                android:id="@+id/btn4"
                 style="@style/btnCalc"
                 android:text="4"/>
 
             <Button
-                android:id="@+id/n_4"
+                android:id="@+id/btn7"
                 style="@style/btnCalc"
                 android:text="7" />
 
             <Button
-                android:id="@+id/n_1"
+                android:id="@+id/btn_ponto"
                 style="@style/btnCalc"
                 android:text="."/>
         </LinearLayout>
@@ -59,22 +59,22 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/op_2"
+                android:id="@+id/btn2"
                 style="@style/btnCalc"
                 android:text="2"/>
 
             <Button
-                android:id="@+id/n_8"
+                android:id="@+id/btn5"
                 style="@style/btnCalc"
                 android:text="5"/>
 
             <Button
-                android:id="@+id/n_5"
+                android:id="@+id/btn8"
                 style="@style/btnCalc"
                 android:text="8" />
 
             <Button
-                android:id="@+id/n_2"
+                android:id="@+id/btn0"
                 style="@style/btnCalc"
                 android:text="0"/>
         </LinearLayout>
@@ -86,22 +86,22 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/op_3"
+                android:id="@+id/btn3"
                 style="@style/btnCalc"
                 android:text="3"/>
 
             <Button
-                android:id="@+id/n_9"
+                android:id="@+id/btn6"
                 style="@style/btnCalc"
                 android:text="6" />
 
             <Button
-                android:id="@+id/n_6"
+                android:id="@+id/btn9"
                 style="@style/btnCalc"
                 android:text="9" />
 
             <Button
-                android:id="@+id/n_3"
+                android:id="@+id/btn_div"
                 style="@style/btnCalc"
                 android:text="/"/>
         </LinearLayout>
@@ -113,7 +113,7 @@
             android:weightSum="4">
 
             <Button
-                android:id="@+id/op_4"
+                android:id="@+id/btn_mais"
                 style="@style/btnCalc"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -121,7 +121,7 @@
                 android:text="+"/>
 
             <Button
-                android:id="@+id/p"
+                android:id="@+id/btn_menos"
                 style="@style/btnCalc"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -135,7 +135,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/op_5"
+                    android:id="@+id/btn_igual"
                     style="@style/btnCalc"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
