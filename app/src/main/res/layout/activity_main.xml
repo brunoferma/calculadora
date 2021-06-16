@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/primaryDarkColor"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
     <EditText
@@ -14,7 +15,7 @@
         android:layout_height="80dp"
         android:background="@color/primaryColor"
         android:inputType="textPersonName"
-        android:hint="000000"
+        android:hint="0"
         android:textAlignment="center"
         android:textColorHint="@color/white"/>
 
@@ -29,7 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="5dp">
 
             <Button
                 android:id="@+id/btn1"
@@ -44,7 +46,8 @@
             <Button
                 android:id="@+id/btn7"
                 style="@style/btnCalc"
-                android:text="7" />
+                android:text="7"
+                />
 
             <Button
                 android:id="@+id/btn_ponto"
@@ -56,6 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:padding="5dp"
             android:orientation="vertical">
 
             <Button
@@ -83,6 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:padding="5dp"
             android:orientation="vertical">
 
             <Button
